@@ -102,15 +102,61 @@
 
 // ReactDOM.render(h1, document.getElementById("root"));
 
-const navBar = (
-  <nav>
-    <h1>ReactJS Sample</h1>
-    <ul>
-      <li>Pricing</li>
-      <li>About</li>
-      <li>Contact</li>
-    </ul>
-  </nav>
-);
+// const navBar = (
+//   <nav>
+//     <h1>ReactJS Sample</h1>
+//     <ul>
+//       <li>Pricing</li>
+//       <li>About</li>
+//       <li>Contact</li>
+//     </ul>
+//   </nav>
+// );
 
-ReactDOM.render(navBar, document.getElementById("root"));
+// ReactDOM.render(navBar, document.getElementById("root"));
+
+// const MainContent = (
+//   <div>
+//     <img src="react.png" width="40px" />
+//     <h1>Fun Facts about React</h1>
+//     <ul>
+//       <li>Was first released in 2013</li>
+//       <li>Was originally created by Jordon Walke</li>
+//       <li>Has well over 100K stars in GitHub</li>
+//       <li>Is maintained by Facebook</li>
+//       <li>Powers thousands of enterprise apps, including mobile apps</li>
+//     </ul>
+//   </div>
+// );
+
+function Page() {
+  return (
+    <div>
+      <header>
+        <img src="react.png" width="40px" />
+        <h1>ReactJS Sample</h1>
+      </header>
+      <h1>Fun Facts about React</h1>
+      <ul>
+        <li>Was first released in 2013</li>
+        <li>Was originally created by Jordon Walke</li>
+        <li>Has well over 100K stars in GitHub</li>
+        <li>Is maintained by Facebook</li>
+        <li>Powers thousands of enterprise apps, including mobile apps</li>
+      </ul>
+      <hr />
+      <h1>Reasons I am excited to learn React</h1>
+      <ul>
+        <li>Want to learn something new</li>
+        <li>Extensive Community</li>
+        <li>Most loved and used library</li>
+        <li>High paying jobs</li>
+      </ul>
+      <footer>
+        <small>© 2023 EJH development. All rights reserved.</small>
+      </footer>
+    </div>
+  );
+}
+
+ReactDOM.render(<Page />, document.getElementById("root"));

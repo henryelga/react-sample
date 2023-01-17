@@ -1,1 +1,21 @@
-# react-sample
+# ReactJS Learning Log
+
+- Introduction to React!
+- First React
+- First React Practice
+- Local setup (the quick way)
+- Why React? It's Composable!
+- Why React? It's declarative
+- JSX
+- Drag and Drop Deploy with Netlify
+- Get detailed reviews of your React projects – Scrimba Bootcamp
+- Goodbye, CDNs!              <!---!>
+- UPDATE: New React 18 createRoot API
+- Thought experiment: use .append() instead of ReactDOM.render()?
+- Project part 1 - markup
+- Pop quiz!
+- Custom Components
+- Custom Components part 2
+- Custom Components Quiz
+- Parent/Child Components
+- Styling with Classes
